@@ -1,0 +1,43 @@
+import com.gradle.plugin.study.Greeting
+import com.gradle.plugin.study.GreetingPlugin
+
+plugins {
+    id 'java'
+    id 'application'
+    id 'idea'
+    id 'plugin.study.greeting'
+}
+
+apply plugin: GreetingPlugin
+
+hello {
+    message = "ni"
+    recipient = "hao"
+}
+
+//class GreetingPluginExtension {
+//    String message = 'Hello from GreetingPlugin'
+//}
+//
+//class GreetingPlugin implements Plugin<Project> {
+//    void apply(Project project) {
+//        // Add the 'greeting' extension object
+//        def extension = project.extensions.create('greeting', GreetingPluginExtension)
+//        // Add a task that uses configuration from the extension object
+//        project.task('hello') {
+//            doLast {
+//                println extension.message
+//            }
+//        }
+//    }
+//}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+}
+
+mainClassName = 'com.gradle.plugin.study.App'
