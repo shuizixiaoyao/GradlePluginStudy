@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+    id 'plugin.study.greeting'
+}
+
+version 'unspecified'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+hello {
+    message = "plugin1"
+    recipient = "hao"
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

@@ -16,6 +16,10 @@
       <module name="buildSrc_test" target="1.8" />
       <module name="GradlePluginStudy_main" target="1.8" />
       <module name="GradlePluginStudy_test" target="1.8" />
+      <module name="Plugin_1_main" target="1.8" />
+      <module name="plugin_1_main" target="1.8" />
+      <module name="plugin_1_test" target="1.8" />
+      <module name="Plugin_1_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="CopyrightManager" default="" />
@@ -33,6 +37,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/buildSrc" />
+            <option value="$PROJECT_DIR$/plugin_1" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />
@@ -77,6 +82,9 @@
       <module fileurl="file://$PROJECT_DIR$/buildSrc.iml" filepath="$PROJECT_DIR$/buildSrc.iml" />
       <module fileurl="file://$PROJECT_DIR$/buildSrc_main.iml" filepath="$PROJECT_DIR$/buildSrc_main.iml" group="buildSrc" />
       <module fileurl="file://$PROJECT_DIR$/buildSrc_test.iml" filepath="$PROJECT_DIR$/buildSrc_test.iml" group="buildSrc" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/plugin_1.iml" filepath="$PROJECT_DIR$/.idea/modules/plugin_1.iml" group="plugin_1" />
+      <module fileurl="file://$PROJECT_DIR$/plugin_1/plugin_1_main.iml" filepath="$PROJECT_DIR$/plugin_1/plugin_1_main.iml" group="plugin_1" />
+      <module fileurl="file://$PROJECT_DIR$/plugin_1/plugin_1_test.iml" filepath="$PROJECT_DIR$/plugin_1/plugin_1_test.iml" group="plugin_1" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
@@ -84,6 +92,9 @@
   </component>
   <component name="SvnBranchConfigurationManager">
     <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
   <component name="libraryTable">
     <library name="Gradle: junit:junit:4.12">
